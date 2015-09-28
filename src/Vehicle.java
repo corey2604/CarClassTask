@@ -30,6 +30,11 @@ public class Vehicle {
         }
     }
 
+    public Vehicle (String Brand, String Model){
+        this.Brand = Brand;
+        this.Model = Model;
+    }
+
 
     public String GetDescription(){
         return Brand+" "+Model;

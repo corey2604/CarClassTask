@@ -5,9 +5,11 @@ public class Main {
         Vehicle w = new Vehicle("Car", "Ford", "Fiesta", v);
         Engine x = new Engine("Honda","Petrol", 12.5f, 14.5f, 15.5f);
         Vehicle y = new Vehicle("Car", "Nissan", "Micra", x);
+        Vehicle z = new Vehicle("Renault", "Clio");
         //Testing that methods return correct values
         System.out.println("Vehicle w is "+w.GetDescription());
         System.out.println("Vehicle y is "+y.GetDescription());
+        System.out.println("Vehicle z is "+z.GetDescription());
         System.out.println("Engine v is "+v.GetEngine());
         System.out.println("Engine x is "+x.GetEngine());
         System.out.println();
