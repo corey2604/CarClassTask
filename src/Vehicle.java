@@ -20,7 +20,7 @@ public class Vehicle {
         this.Brand = Brand;
         this.Model = Model;
         this.Wheels = Wheels;
-        this.EngineVar= Engine;
+        this.EngineVar= EngineVar;
 
         if ((Brand == "Suzuki") && (Model == "gsx")){
             this.Wheels=2;

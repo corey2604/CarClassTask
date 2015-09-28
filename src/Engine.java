@@ -5,8 +5,6 @@
  * Time: 11:47
  * To change this template use File | Settings | File Templates.
  */
-
-
 import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
